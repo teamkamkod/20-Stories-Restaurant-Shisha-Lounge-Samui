@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>20 Stories Restaurant & Shisha Lounge Samui</title>
+    <meta name="description" content="Beachside Seafood Bliss & Shisha Serenity in Bo Put. Grilled seafood, cocktails and live entertainment.">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpg" href="https://lh6.googleusercontent.com/-bF_zgAewpTc/AAAAAAAAAAI/AAAAAAAAAAA/80zGq76G8wY/s44-p-k-no-ns-nd/photo.jpg">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Top Bar -->
+    <div id="topbar" class="d-flex align-items-center fixed-top">
+        <div class="container d-flex justify-content-between">
+            <div class="contact-info">
+                <i class="fas fa-phone"></i> +66 90 945 5888
+                <span class="d-none d-md-inline ms-4"><i class="fas fa-clock"></i> Mon-Sun: 14:00 - 23:00</span>
+            </div>
+            <div class="languages">
+                <button onclick="switchLang('en')" class="lang-btn active">ENG</button>
+                <span class="divider">|</span>
+                <button onclick="switchLang('th')" class="lang-btn">TH</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo"><a href="#hero">20 Stories</a></h1>
+            
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero"><span data-en="Home" data-th="หน้าหลัก">Home</span></a></li>
+                    <li><a class="nav-link scrollto" href="#about"><span data-en="About" data-th="เกี่ยวกับเรา">About</span></a></li>
+                    <li><a class="nav-link scrollto" href="#menu"><span data-en="Menu" data-th="เมนู">Menu</span></a></li>
+                    <li><a class="nav-link scrollto" href="#gallery"><span data-en="Gallery" data-th="รูปภาพ">Gallery</span></a></li>
+                    <li><a class="nav-link scrollto" href="#contact"><span data-en="Contact" data-th="ติดต่อ">Contact</span></a></li>
+                </ul>
+                <i class="fas fa-bars mobile-nav-toggle"></i>
+            </nav>
+            
+            <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex"><span data-en="Book a table" data-th="จองโต๊ะ">Book a table</span></a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="d-flex align-items-center">
+        <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+            <div class="row">
+                <div class="col-lg-8">
+                    <h1>Welcome to <span>20 Stories</span></h1>
+                    <h2 data-en="Beachside Seafood Bliss & Shisha Serenity in Bo Put." data-th="สุขสันต์กับอาหารทะเลริมชายหาดและความสงบของชิชาในบ่อผุด">Beachside Seafood Bliss & Shisha Serenity in Bo Put.</h2>
+                    
+                    <div class="btns">
+                        <a href="#menu" class="btn-menu animated fadeInUp scrollto"><span data-en="Our Menu" data-th="เมนูของเรา">Our Menu</span></a>
+                        <a href="#book-a-table" class="btn-book animated fadeInUp scrollto"><span data-en="Book a Table" data-th="จองโต๊ะ">Book a Table</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main id="main">
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="about-img">
+                            <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxvMZEnSASjV-9BGFPWUJhUGNb5F4Q5qmhGNgwLIaDtKDPa3u6636dqPwY16wdpfWmkAFwux37ltqSTOOzHR3cwGmSbzknd04m3i-E5oKzqcXviDcYkylxi8EDJ9R-t-XauBL8" alt="20 Stories Atmosphere">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+                        <h3 data-en="Savor fresh grilled seafood platters under Samui stars." data-th="ลิ้มรสอาหารทะเลย่างสดใหม่ใต้แสงดาวสมุย">Savor fresh grilled seafood platters under Samui stars.</h3>
+                        <p class="fst-italic" data-en="Nestled on Bo Put's vibrant beach in Koh Samui, 20 Stories Restaurant & Shisha Lounge Samui fuses the ocean's bounty with exotic hookah allure." data-th="ตั้งอยู่บนชายหาดที่มีชีวิตชีวาของบ่อผุด เกาะสมุย 20 Stories Restaurant & Shisha Lounge ผสมผสานความอุดมสมบูรณ์ของทะเลเข้ากับเสน่ห์ของชิชาที่แปลกใหม่">
+                            Nestled on Bo Put's vibrant beach in Koh Samui, 20 Stories Restaurant & Shisha Lounge Samui fuses the ocean's bounty with exotic hookah allure.
+                        </p>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Fresh grilled platters: lobster, snapper, octopus, mussels, and prawns." data-th="จานย่างสดใหม่: กุ้งล็อบสเตอร์ ปลากะพง ปลาหมึก หอยแมลงภู่ และกุ้ง">Fresh grilled platters: lobster, snapper, octopus, mussels, and prawns.</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Beachfront tables with mesmerizing sea views and fire shows." data-th="โต๊ะริมชายหาดพร้อมวิวทะเลที่น่าหลงใหลและการแสดงไฟ">Beachfront tables with mesmerizing sea views and fire shows.</span></li>
+                            <li><i class="fas fa-check-circle"></i> <span data-en="Relax with chilled rosé, cocktails, and shisha under the stars." data-th="ผ่อนคลายกับโรเซ่เย็นๆ ค็อกเทล และชิชาภายใต้แสงดาว">Relax with chilled rosé, cocktails, and shisha under the stars.</span></li>
+                        </ul>
+                        <p data-en="We cherish fresh ingredients, value, and unforgettable vibes—creating stories worth sharing. Join us for lunch or dinner, daily from 2 PM." data-th="เราให้ความสำคัญกับวัตถุดิบสดใหม่ ความคุ้มค่า และบรรยากาศที่น่าจดจำ—สร้างเรื่องราวที่คุณอยากแบ่งปัน มาร่วมลิ้มลองมื้อกลางวันหรือมื้อค่ำกับเราได้ทุกวันตั้งแต่บ่าย 2 โมง">
+                            We cherish fresh ingredients, value, and unforgettable vibes—creating stories worth sharing. Join us for lunch or dinner, daily from 2 PM.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="menu section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2 data-en="Menu" data-th="เมนู">Menu</h2>
+                    <p data-en="Check Our Tasty Menu" data-th="ตรวจสอบเมนูแสนอร่อยของเรา">Check Our Tasty Menu</p>
+                </div>
+
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="menu-flters">
+                            <li data-filter="*" class="filter-active" data-en="All" data-th="ทั้งหมด">All</li>
+                            <li data-filter=".filter-seafood" data-en="Seafood Grill" data-th="อาหารทะเลย่าง">Seafood Grill</li>
+                            <li data-filter=".filter-thai" data-en="Thai Favorites" data-th="อาหารไทย">Thai Favorites</li>
+                            <li data-filter=".filter-drinks" data-en="Shisha & Drinks" data-th="ชิชาและเครื่องดื่ม">Shisha & Drinks</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+
+                    <!-- Seafood Item 1 -->
+                    <div class="col-lg-6 menu-item filter-seafood">
+                        <div class="menu-content">
+                            <a href="#"><span data-en="Seafood Platter Special" data-th="ชุดรวมมิตรทะเลเผา">Seafood Platter Special</span></a><span>฿1500</span>
+                        </div>
+                        <div class="menu-ingredients" data-en="Lobster, Prawns, Seabass, Squid (Perfect for sharing)" data-th="กุ้งล็อบสเตอร์, กุ้ง, ปลากะพง, ปลาหมึก (เหมาะสำหรับแบ่งปัน)">
+                            Lobster, Prawns, Seabass, Squid (Perfect for sharing)
+                        </div>
+                    </div>
+
+                    <!-- Seafood Item 2 -->
+                    <div class="col-lg-6 menu-item filter-seafood">
+                        <div class="menu-content">
+                            <a href="#"><span data-en="BBQ Snapper" data-th="ปลากะพงเผาเกลือ">BBQ Snapper</span></a><span>Seasonal</span>
+                        </div>
+                        <div class="menu-ingredients" data-en="Salt-crusted, stuffed with lemongrass & lime leaves" data-th="พอกเกลือ ยัดไส้ตะไคร้และใบมะกรูด">
+                            Salt-crusted, stuffed with lemongrass & lime leaves
+                        </div>
+                    </div>
+
+                    <!-- Thai Item 1 -->
+                    <div class="col-lg-6 menu-item filter-thai">
+                        <div class="menu-content">
+                            <a href="#"><span data-en="Pineapple Fried Rice" data-th="ข้าวผัดสับปะรด">Pineapple Fried Rice</span></a><span>฿250</span>
+                        </div>
+                        <div class="menu-ingredients" data-en="Served in half pineapple with cashews and prawns" data-th="เสิร์ฟในสับปะรดครึ่งลูก พร้อมเม็ดมะม่วงหิมพานต์และกุ้ง">
+                            Served in half pineapple with cashews and prawns
+                        </div>
+                    </div>
+
+                    <!-- Thai Item 2 -->
+                    <div class="col-lg-6 menu-item filter-thai">
+                        <div class="menu-content">
+                            <a href="#"><span data-en="Spicy Corn Salad" data-th="ตำข้าวโพด">Spicy Corn Salad</span></a><span>฿180</span>
+                        </div>
+                        <div class="menu-ingredients" data-en="A lighter version of Som Tum with sweet corn" data-th="ส้มตำรสจัดจ้านใช้ข้าวโพดหวาน">
+                            A lighter version of Som Tum with sweet corn
+                        </div>
+                    </div>
+
+                    <!-- Drinks Item 1 -->
+                    <div class="col-lg-6 menu-item filter-drinks">
+                        <div class="menu-content">
+                            <a href="#"><span data-en="Premium Shisha" data-th="ชิชาพรีเมียม">Premium Shisha</span></a><span>Ask Server</span>
+                        </div>
+                        <div class="menu-ingredients" data-en="Variety of exotic flavors, prepared with premium coals" data-th="หลากหลายรสชาติแปลกใหม่ เตรียมด้วยถ่านคุณภาพเยี่ยม">
+                            Variety of exotic flavors, prepared with premium coals
+                        </div>
+                    </div>
+
+                     <!-- Drinks Item 2 -->
+                     <div class="col-lg-6 menu-item filter-drinks">
+                        <div class="menu-content">
+                            <a href="#"><span data-en="Signature Mai Tai" data-th="ไมไตสูตรพิเศษ">Signature Mai Tai</span></a><span>฿280</span>
+                        </div>
+                        <div class="menu-ingredients" data-en="Roasted almond simple syrup, no grenadine" data-th="น้ำเชื่อมโฮมเมดอัลมอนด์คั่ว ไม่ใส่น้ำเชื่อมทับทิม">
+                            Roasted almond simple syrup, no grenadine
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservation Section -->
+        <section id="book-a-table" class="book-a-table">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2 data-en="Reservation" data-th="จองโต๊ะ">Reservation</h2>
+                    <p data-en="Book a Table" data-th="จองโต๊ะที่ร้าน">Book a Table</p>
+                </div>
+
+                <form action="" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100" id="bookingForm">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 form-group">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required>
+                        </div>
+                        <div class="col-lg-4 col-md-6 form-group mt-3 mt-md-0">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="col-lg-4 col-md-6 form-group mt-3">
+                            <input type="date" name="date" class="form-control" id="date" required>
+                        </div>
+                        <div class="col-lg-4 col-md-6 form-group mt-3">
+                            <input type="time" class="form-control" name="time" id="time" required>
+                        </div>
+                        <div class="col-lg-4 col-md-6 form-group mt-3">
+                            <input type="number" class="form-control" name="people" id="people" placeholder="# of people" min="1" required>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+                    </div>
+                    <div class="text-center"><button type="submit" data-en="Book a Table" data-th="ยืนยันการจอง">Book a Table</button></div>
+                </form>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="gallery section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2 data-en="Gallery" data-th="แกลเลอรี">Gallery</h2>
+                    <p data-en="Some photos from Our Restaurant" data-th="ภาพบรรยากาศร้านของเรา">Some photos from Our Restaurant</p>
+                </div>
+
+                <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+                    <div class="row g-0">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a href="#" class="gallery-lightbox">
+                                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxJ4N_hBwm1qmqn3E8C7WnF4s_HaC-5vIE-6sNe7Uzke_DJgI0epchqy-9Uumx3xax5JjyGV61-hHB9wATBMOiG9geQEMzkAc8NAzuZc8H2P7re_9EBoZJ7Z-4rrRKe2m00b0FtMrQtxxIx" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a href="#" class="gallery-lightbox">
+                                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxN4-a6pbl3zNt9WoSqPn5iIlx0vNMe635x1JlZalkg-vd5dbp39C1InxV7e_zmh2ZA54yQdALPKmUI0zgFw2737dLq8qBMaRgH4ejCVMNsp1-yXAemrovWNMcBCpLUnoKfkNuG" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a href="#" class="gallery-lightbox">
+                                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSxu8RYXEroOrOJ0TxL5kgjYur8Rki-Na3gNhxIBckCY1ZUW85F6-2fR5tC4hd9k5GNwhzgDY_Enxb5f68KGdQJIut7TUAVqNkilIYq8eX_T39HF_SCL_HqrBrXrWeih74iqtqM9PM7uLhqg" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a href="#" class="gallery-lightbox">
+                                    <img src="https://lh3.googleusercontent.com/gps-cs-s/AG0ilSzH4pvzk20xZLazFGqfjZJvd3bB6HRFxlnhlx7izxVwBCw577Gdl4lD7Uz8bL6Dm6XWfvkOMnHa8qwmnRjc7zWe6fZJrfK84_lcmxINjpQ3R_E-CCpEUVu6ceTeJLdMlVkQHxLUuTDPnbVF" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials/Reviews Section -->
+        <section id="testimonials" class="testimonials">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2 data-en="Reviews" data-th="รีวิว">Reviews</h2>
+                    <p data-en="What they're saying about us" data-th="ลูกค้าพูดถึงเราว่าอย่างไร">What they're saying about us</p>
+                </div>
+
+                <div class="row" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-md-6 mb-4">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="fas fa-quote-left quote-icon-left"></i>
+                                <span data-en="Super highly recommended: fresh and good fish, wonderful lobster, service perfect with right attention to guests. Price convenient." data-th="แนะนำเป็นอย่างยิ่ง: ปลาสดและดี กุ้งล็อบสเตอร์ยอดเยี่ยม บริการสมบูรณ์แบบใส่ใจแขก ราคาเหมาะสม">Super highly recommended: fresh and good fish, wonderful lobster, service perfect with right attention to guests. Price convenient.</span>
+                                <i class="fas fa-quote-right quote-icon-right"></i>
+                            </p>
+                            <h3>Indra</h3>
+                            <h4><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="fas fa-quote-left quote-icon-left"></i>
+                                <span data-en="Staff are lovely, prices are reasonable for this area. Would definitely come back!" data-th="พนักงานน่ารัก ราคาเหมาะสมสำหรับย่านนี้ จะกลับมาอีกแน่นอน!">Staff are lovely, prices are reasonable for this area. Would definitely come back!</span>
+                                <i class="fas fa-quote-right quote-icon-right"></i>
+                            </p>
+                            <h3>Samantha</h3>
+                            <h4><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                        <div class="testimonial-item">
+                            <p>
+                                <i class="fas fa-quote-left quote-icon-left"></i>
+                                <span data-en="Food was insanely fresh and value for money, view is perfect and service is 5/5. Definitely worth a visit!" data-th="อาหารสดมากและคุ้มค่า วิวสวยสมบูรณ์แบบ และบริการ 5/5 คุ้มค่าแก่การมาเยือนแน่นอน!">Food was insanely fresh and value for money, view is perfect and service is 5/5. Definitely worth a visit!</span>
+                                <i class="fas fa-quote-right quote-icon-right"></i>
+                            </p>
+                            <h3>Kelmond Ng</h3>
+                            <h4><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></h4>
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                         <div class="testimonial-item">
+                            <p>
+                                <i class="fas fa-quote-left quote-icon-left"></i>
+                                <span data-en="Good location Good view Good service. Delicious fresh clean food. Good service. Affordable price for Thais." data-th="Good location Good view Good service อาหารอร่อยสด สะอาด บริการดี ราคาที่คนไทยรับได้ อร่อยค่ะ">Good location Good view Good service อาหารอร่อยสด สะอาด บริการดี ราคาที่คนไทยรับได้ อร่อยค่ะ</span>
+                                <i class="fas fa-quote-right quote-icon-right"></i>
+                            </p>
+                            <h3>Natasha Cha</h3>
+                            <h4><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i><i class="fas fa-star text-warning"></i></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2 data-en="Contact" data-th="ติดต่อ">Contact</h2>
+                    <p data-en="Contact Us" data-th="ติดต่อเรา">Contact Us</p>
+                </div>
+            </div>
+
+            <div data-aos="fade-up">
+                <iframe style="border:0; width: 100%; height: 350px;" src="https://maps.google.com/maps?q=9.5599792,100.0306523&z=15&output=embed" frameborder="0" allowfullscreen></iframe>
+            </div>
+
+            <div class="container" data-aos="fade-up">
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="address">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <h4 data-en="Location:" data-th="ที่อยู่:">Location:</h4>
+                                <p data-en="65 Bo Put, Amphoe Ko Samui, Surat Thani 84320" data-th="65 บ่อผุด, อำเภอเกาะสมุย, สุราษฎร์ธานี 84320">65 Bo Put, Amphoe Ko Samui, Surat Thani 84320</p>
+                            </div>
+
+                            <div class="open-hours">
+                                <i class="fas fa-clock"></i>
+                                <h4 data-en="Open Hours:" data-th="เวลาทำการ:">Open Hours:</h4>
+                                <p>
+                                    <span data-en="Monday - Sunday:" data-th="จันทร์ - อาทิตย์:">Monday - Sunday:</span><br>
+                                    14:00 PM - 23:00 PM
+                                </p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="fas fa-phone"></i>
+                                <h4 data-en="Call:" data-th="โทร:">Call:</h4>
+                                <p>+66 90 945 5888</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>20 Stories Samui</span></strong>. All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
